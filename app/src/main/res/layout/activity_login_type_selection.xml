@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/locations">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.35"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hello"
+                android:textColor="@color/red"
+                android:textSize="@dimen/_25ssp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wel_come_text"
+                android:textSize="@dimen/_22ssp"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.65"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/Login_phn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_red_fill"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/_20sdp"
+                android:paddingRight="@dimen/_20sdp">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp"
+                    android:text="login with mobile number"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="true"
+                    android:textSize="@dimen/_14ssp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Login_phn"
+                android:layout_alignLeft="@+id/Login_phn"
+                android:layout_alignRight="@+id/Login_phn"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/rounded_red_fill"
+                android:gravity="center_vertical|center_horizontal"
+
+                android:paddingLeft="@dimen/_20sdp"
+                android:id="@+id/Login_Email"
+                android:paddingRight="@dimen/_20sdp"
+                android:layout_alignStart="@+id/Login_phn"
+                android:layout_alignEnd="@+id/Login_phn">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp"
+                    android:text="login with email"
+                    android:textAllCaps="true"
+
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/_14ssp"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

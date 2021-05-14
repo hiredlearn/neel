@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:padding="@dimen/_5sdp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:background="@drawable/rounded_gray"
+        android:id="@+id/MainLayout">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_baseline_add_24"
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/gray_circle"/>
+    <com.github.siyamed.shapeimageview.RoundedImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView2"
+        app:siRadius="@dimen/_5sdp"
+        android:padding="@dimen/_1sdp"/>
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="1dp"
+            android:id="@+id/DeleteBTN"
+            android:visibility="gone"
+            android:src="@drawable/ic_baseline_clear_24"
+            android:background="@drawable/delete_btn"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MainLayout"
+        android:layout_alignStart="@id/MainLayout"
+        android:layout_alignEnd="@id/MainLayout"
+        android:text="Aadhar Front"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="@dimen/_4sdp"
+        android:id="@+id/Doc_name"
+        android:textSize="@dimen/_10ssp"
+        />
+</RelativeLayout>

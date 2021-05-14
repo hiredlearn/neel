@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/locations">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.35"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hello"
+                android:textColor="@color/red"
+                android:textSize="@dimen/_25ssp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wel_come_text"
+                android:textSize="@dimen/_22ssp"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.65"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/Current_Location_Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_red_fill"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/_20sdp"
+                android:paddingRight="@dimen/_20sdp">
+
+                <ImageView
+                    android:layout_width="@dimen/_32sdp"
+                    android:layout_height="@dimen/_32sdp"
+                    android:padding="@dimen/_8sdp"
+                    android:src="@drawable/ic_location_searching_24px"
+                    android:contentDescription="@string/imageview"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp"
+                    android:text="@string/your_current_location"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/_14ssp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Current_Location_Btn"
+                android:layout_alignLeft="@+id/Current_Location_Btn"
+                android:layout_alignRight="@+id/Current_Location_Btn"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/rounded_red_storke"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/_20sdp"
+                android:id="@+id/OtherLocationBTN"
+                android:paddingRight="@dimen/_20sdp"
+                android:layout_alignStart="@+id/Current_Location_Btn"
+                android:layout_alignEnd="@+id/Current_Location_Btn">
+
+                <ImageView
+                    android:layout_width="@dimen/_32sdp"
+                    android:layout_height="@dimen/_32sdp"
+                    android:padding="@dimen/_8sdp"
+                    android:src="@drawable/ic_all_out_24px"
+                    android:contentDescription="@string/imageview"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp"
+                    android:text="@string/some_other_location"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/_14ssp"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

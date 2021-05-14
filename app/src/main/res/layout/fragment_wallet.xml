@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1">
+
+    <ImageView
+        android:id="@+id/backImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/maskgroup7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/backImage"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:src="@drawable/group132" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_alignBottom="@id/imageView"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toRightOf="@+id/imageView"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/walletlable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wallets_balance"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16ssp" />
+
+            <TextView
+                android:id="@+id/CurrentBalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/walletlable"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20ssp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/backImage">
+
+        <RelativeLayout
+            android:id="@+id/LoginBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_40sdp"
+            android:background="@drawable/rounded_red_fill"
+            app:layout_constraintTop_toBottomOf="@+id/PhnNumLayout">
+
+            <TextView
+                android:id="@+id/addMoneyTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/_10sdp"
+                android:text="Add Money"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_14ssp"></TextView>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:padding="@dimen/_10sdp"
+            android:text="Select an amount to add"
+            android:textSize="@dimen/_12ssp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/rs_100"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:background="@drawable/white_circle"
+                android:gravity="center"
+                android:text="@string/rs100"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/rs_200"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:background="@drawable/white_circle"
+                android:gravity="center"
+                android:text="@string/rs100" />
+
+            <TextView
+                android:id="@+id/rs_500"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:background="@drawable/white_circle"
+                android:gravity="center"
+                android:text="@string/rs100" />
+
+            <TextView
+                android:id="@+id/rs_1000"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:background="@drawable/white_circle"
+                android:gravity="center"
+                android:text="@string/rs100" />
+
+            <TextView
+                android:id="@+id/other"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:background="@drawable/white_circle"
+                android:gravity="center"
+                android:text="Other" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

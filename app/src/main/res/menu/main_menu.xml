@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/my_booking"
+        android:icon="@drawable/group95"
+        android:title="@string/my_booking" />
+    <item
+        android:id="@+id/find_vehicle"
+        android:icon="@drawable/group101"
+        android:title="@string/find_my_vehicle" />
+    <item android:title="@string/rent_your_spot"
+        >
+      <menu>
+        <item
+            android:id="@+id/rent_parking"
+            android:icon="@drawable/group102"
+            android:title="@string/rent_parking" />
+
+      </menu>
+    </item>
+    <item android:title="@string/we_listen"
+        >
+      <menu>
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/group103"
+            android:title="@string/feedback" />
+        <item
+            android:id="@+id/refer_earn"
+            android:icon="@drawable/group104"
+            android:title="@string/refer_and_earn" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/group105"
+            android:title="@string/share" />
+        <item
+            android:id="@+id/rateus"
+            android:icon="@drawable/group106"
+            android:title="@string/rate_us" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/group108"
+            android:title="@string/settings"
+            android:visible="false"/>
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/group107"
+            android:title="@string/logout" />
+      </menu>
+    </item>
+  </group>
+
+
+</menu>

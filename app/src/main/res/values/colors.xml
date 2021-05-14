@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorPrimary">#FFFFFF</color>
+<color name="colorPrimaryDark">#3700B3</color>
+<color name="colorAccent">#03DAC5</color>
+<color name="my_statusbar_color">#BF000000</color>
+<color name="red">#f90825</color>
+<color name="blue_color">#1d2951</color>
+<color name="count_color">#918ec6</color>
+<color name="red_dark">#d9001a</color>
+<color name="yellow">#ffe013</color>
+    <color name="gray">#757c95</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_background">#e4e4e4</color>
+    <color name="light_gray">#ececec</color>
+    <color name="light_gray_new">#C6C6C6</color>
+    <color name="dark_gray_new">#878787</color>
+    <color name="wallet_green">#027802</color>
+</resources>

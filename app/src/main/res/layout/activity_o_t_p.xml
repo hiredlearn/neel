@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/phone"
+    android:id="@+id/MainLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/verification_code"
+                android:textColor="@color/blue_color"
+                android:textSize="@dimen/_18ssp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="@dimen/_3sdp"
+                android:text="@string/please_type_code"
+                android:textColor="@color/blue_color"
+                android:textSize="@dimen/_14ssp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <com.mukesh.OtpView
+                android:id="@+id/otp_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:inputType="number"
+                android:itemBackground="@drawable/bg_otp_item"
+                android:textColor="@color/count_color"
+                app:OtpCursorColor="@color/count_color"
+                app:OtpHideLineWhenFilled="false"
+                app:OtpItemCount="4"
+                app:OtpItemSpacing="@dimen/_10sdp"
+                app:OtpLineColor="@color/count_color"
+                app:OtpState_filled="false"
+                app:OtpViewType="rectangle" />
+
+            <RelativeLayout
+                android:id="@+id/ContinueBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_40sdp"
+                android:background="@drawable/rounded_red_fill"
+                app:layout_constraintTop_toBottomOf="@+id/PhnNumLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/cont"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/_14ssp" />
+
+                <ImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:src="@drawable/group79" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_40sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00:25"
+                    android:textColor="@color/count_color"
+                    android:textSize="@dimen/_14ssp"
+                    android:id="@+id/MinuteTXT"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/ResendTXT"
+                    android:text="@string/resend_code"
+                    android:textColor="@color/count_color"
+                    android:textSize="@dimen/_14ssp"></TextView>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

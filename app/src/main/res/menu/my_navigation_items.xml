@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/parking"
+      android:title="@string/parking"
+      android:icon="@drawable/group94" />
+  <item android:id="@+id/booking"
+      android:title="@string/booking"
+      android:icon="@drawable/group90" />
+  <item android:id="@+id/wallet"
+      android:title="@string/wallets"
+      android:icon="@drawable/group89" />
+  <item android:id="@+id/me"
+      android:title="@string/me"
+      android:icon="@drawable/group88" />
+</menu>

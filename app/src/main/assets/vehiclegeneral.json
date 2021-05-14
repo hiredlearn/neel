@@ -1,0 +1,322 @@
+{
+  "data": {
+    "brands": [
+      {
+        "id": "58637809-2d3f-4051-9181-c0692a3a450a",
+        "name": "Hero",
+        "type_id": "85998ec0-ca13-4b7b-9f60-72120a3ea1cb"
+      },
+      {
+        "id": "32efdf80-bbf9-4f83-8b4d-839ef62bf07f",
+        "name": "Honda",
+        "type_id": "85998ec0-ca13-4b7b-9f60-72120a3ea1cb"
+      },
+      {
+        "id": "219d80a7-c329-46ad-befb-deaecea41fc5",
+        "name": "TVS",
+        "type_id": "85998ec0-ca13-4b7b-9f60-72120a3ea1cb"
+      },
+      {
+        "id": "c153a943-e208-459b-a75d-92fc7ece5eb9",
+        "name": "BAJAJ",
+        "type_id": "85998ec0-ca13-4b7b-9f60-72120a3ea1cb"
+      },
+      {
+        "id": "ca029352-53e1-4bab-b9ef-46cf6aad7441",
+        "name": "MARUTI SUZUKI",
+        "type_id": "a244e150-3cdf-410d-b1b1-b1515744b2cc"
+      },
+      {
+        "id": "7e414d6a-e090-412c-8778-8e06bad58761",
+        "name": "Hyundai",
+        "type_id": "a244e150-3cdf-410d-b1b1-b1515744b2cc"
+      },
+      {
+        "id": "0f4e5985-6fd7-4118-bad7-a2ae4b6f3899",
+        "name": "HONDA",
+        "type_id": "a244e150-3cdf-410d-b1b1-b1515744b2cc"
+      },
+      {
+        "id": "c877e003-8cfe-41eb-8d78-ea5c4aa8364c",
+        "name": "Toyota",
+        "type_id": "a244e150-3cdf-410d-b1b1-b1515744b2cc"
+      },
+      {
+        "id": "54661ee7-6289-4dc6-aa7c-4323d0859678",
+        "name": "Tata",
+        "type_id": "a244e150-3cdf-410d-b1b1-b1515744b2cc"
+      },
+      {
+        "id": "9c47406d-51e5-45a2-b7f1-7f6387eb6c13",
+        "name": "Mahindra",
+        "type_id": "a244e150-3cdf-410d-b1b1-b1515744b2cc"
+      }
+    ],
+    "categories": [
+      {
+        "id": "603aac21-f2bc-4fd9-92c6-3cbba4c1ce25",
+        "name": "Hatchback",
+        "slug": "hatchback",
+        "type_id": "a244e150-3cdf-410d-b1b1-b1515744b2cc"
+      },
+      {
+        "id": "6b8d4f1f-3bc4-47bc-9e4d-fb918b2e590d",
+        "name": "Sedan",
+        "slug": "sedan",
+        "type_id": "a244e150-3cdf-410d-b1b1-b1515744b2cc"
+      },
+      {
+        "id": "665df0e7-eaed-4360-9254-dfdea32091f6",
+        "name": "MPV",
+        "slug": "mpv",
+        "type_id": "a244e150-3cdf-410d-b1b1-b1515744b2cc"
+      },
+      {
+        "id": "fd89f68e-d5a1-4ab8-976f-16a20ada92ff",
+        "name": "SUV",
+        "slug": "suv",
+        "type_id": "a244e150-3cdf-410d-b1b1-b1515744b2cc"
+      },
+      {
+        "id": "cdb9fe0e-c43b-4e06-a5ab-1fcff1a4a930",
+        "name": "Crossover",
+        "slug": "crossover",
+        "type_id": "a244e150-3cdf-410d-b1b1-b1515744b2cc"
+      },
+      {
+        "id": "b3fe6757-8f22-4665-a566-3bb587e2531b",
+        "name": "Coupe",
+        "slug": "coupe",
+        "type_id": "a244e150-3cdf-410d-b1b1-b1515744b2cc"
+      },
+      {
+        "id": "96b5c44e-60c1-4b66-aada-bab456d22e44",
+        "name": "Convertible",
+        "slug": "convertible",
+        "type_id": "a244e150-3cdf-410d-b1b1-b1515744b2cc"
+      },
+      {
+        "id": "bdbffc84-5a3f-4ff9-b0e1-03c295ba5498",
+        "name": "Scooters",
+        "slug": "scooters",
+        "type_id": "85998ec0-ca13-4b7b-9f60-72120a3ea1cb"
+      },
+      {
+        "id": "17b375ff-e2fb-460d-82cc-37ce2c6b0ba0",
+        "name": "Sport bikes",
+        "slug": "sport-bikes",
+        "type_id": "85998ec0-ca13-4b7b-9f60-72120a3ea1cb"
+      },
+      {
+        "id": "ffd9500f-b6ce-4fa2-8dc9-3efaca3ffc61",
+        "name": "Street bikes",
+        "slug": "street-bikes",
+        "type_id": "85998ec0-ca13-4b7b-9f60-72120a3ea1cb"
+      }
+    ],
+    "colors": [
+      {
+        "code": "#ff0000",
+        "id": "25fcd1b7-cede-4314-882e-7ded29320e6b",
+        "isSelected": false,
+        "name": "Red"
+      },
+      {
+        "code": "#000000",
+        "id": "bb09047d-c0ca-4e07-8399-ef564a481e20",
+        "isSelected": false,
+        "name": "Black"
+      },
+      {
+        "code": "#ffffff",
+        "id": "abf2c7ef-fae3-4e7b-941d-cde9de6f0bd9",
+        "isSelected": false,
+        "name": "White"
+      },
+      {
+        "code": "#ffff00",
+        "id": "bb2c3b38-3baa-49e1-984b-ee52ed603665",
+        "isSelected": false,
+        "name": "Yellow"
+      },
+      {
+        "code": "#00ff00",
+        "id": "8fa2b16b-5f7b-4b9e-8b50-7134938307df",
+        "isSelected": false,
+        "name": "Green"
+      },
+      {
+        "code": "#0000ff",
+        "id": "d8ca13b0-67e1-48af-917e-c333709f2a59",
+        "isSelected": false,
+        "name": "Blue"
+      },
+      {
+        "code": "#ff9900",
+        "id": "cb610f43-fdd6-4f9d-9085-a3d01560cddb",
+        "isSelected": false,
+        "name": "Orange"
+      }
+    ],
+    "models": [
+      {
+        "brand_id": "ca029352-53e1-4bab-b9ef-46cf6aad7441",
+        "id": "f5fd5fe8-bac5-4785-b2cb-90e8a0717a8b",
+        "name": "Maruti Suzuki Swift"
+      },
+      {
+        "brand_id": "ca029352-53e1-4bab-b9ef-46cf6aad7441",
+        "id": "f79d0a39-1264-4eb0-a47c-f620e1cbed77",
+        "name": "Maruti Suzuki Baleno"
+      },
+      {
+        "brand_id": "ca029352-53e1-4bab-b9ef-46cf6aad7441",
+        "id": "51357e2c-a288-4b16-9ecd-5137a6228196",
+        "name": "Maruti Suzuki Dzire"
+      },
+      {
+        "brand_id": "ca029352-53e1-4bab-b9ef-46cf6aad7441",
+        "id": "c5a520ba-b14b-44bf-984b-c01ba92c8614",
+        "name": "Maruti Suzuki Vitara Brezza"
+      },
+      {
+        "brand_id": "58637809-2d3f-4051-9181-c0692a3a450a",
+        "id": "cd146d9c-694e-433c-ba7b-13c1b49a15dc",
+        "name": "PASSION PRO XPRO 2018"
+      },
+      {
+        "brand_id": "58637809-2d3f-4051-9181-c0692a3a450a",
+        "id": "b2efbc02-496a-4b4f-add2-9b899eab6d5c",
+        "name": "HF DAWN"
+      },
+      {
+        "brand_id": "58637809-2d3f-4051-9181-c0692a3a450a",
+        "id": "5348e020-0704-4dae-b09c-4a4b8f8aaaad",
+        "name": "HF DELUXE"
+      },
+      {
+        "brand_id": "58637809-2d3f-4051-9181-c0692a3a450a",
+        "id": "acc101b4-b198-4d2d-b9b2-207043c39333",
+        "name": "HF DELUXE ECO"
+      },
+      {
+        "brand_id": "58637809-2d3f-4051-9181-c0692a3a450a",
+        "id": "24bf89ac-9fea-47cf-8650-25508f474747",
+        "name": "PLEASURE"
+      },
+      {
+        "brand_id": "58637809-2d3f-4051-9181-c0692a3a450a",
+        "id": "632fa519-5f03-41b5-856a-432067032590",
+        "name": "SPLENDOR PRO"
+      },
+      {
+        "brand_id": "32efdf80-bbf9-4f83-8b4d-839ef62bf07f",
+        "id": "7232cfcd-3db6-4165-a4f5-071f39d82709",
+        "name": "XTREME SPORTS"
+      },
+      {
+        "brand_id": "32efdf80-bbf9-4f83-8b4d-839ef62bf07f",
+        "id": "623d7a7e-c8ae-47fc-b393-7569561ed28f",
+        "name": "NAVI"
+      },
+      {
+        "brand_id": "32efdf80-bbf9-4f83-8b4d-839ef62bf07f",
+        "id": "ae7a6376-093c-4044-a9d6-27429a8fe1b8",
+        "name": "CLIQ"
+      },
+      {
+        "brand_id": "32efdf80-bbf9-4f83-8b4d-839ef62bf07f",
+        "id": "f68a1569-ae58-408d-83c2-781b46f47387",
+        "name": "CD 110 DREAM"
+      },
+      {
+        "brand_id": "32efdf80-bbf9-4f83-8b4d-839ef62bf07f",
+        "id": "ae93b7c2-1b6b-4af8-a8a8-aad5817d8adc",
+        "name": "ACTIVA I"
+      },
+      {
+        "brand_id": "32efdf80-bbf9-4f83-8b4d-839ef62bf07f",
+        "id": "4d4c25d5-ea5f-4e88-a623-6b851e759a0f",
+        "name": "DREAM NEO"
+      },
+      {
+        "brand_id": "32efdf80-bbf9-4f83-8b4d-839ef62bf07f",
+        "id": "de2786b3-8027-4c2c-bd30-dae8fa508fe9",
+        "name": "ACTIVA 4G"
+      },
+      {
+        "brand_id": "32efdf80-bbf9-4f83-8b4d-839ef62bf07f",
+        "id": "a8e98f2f-ef8b-46c1-b249-2736b91f1d77",
+        "name": "ACTIVA 5G"
+      },
+      {
+        "brand_id": "219d80a7-c329-46ad-befb-deaecea41fc5",
+        "id": "bce2f60b-cfc8-462c-aad6-8dc92144d0c9",
+        "name": "XL 100"
+      },
+      {
+        "brand_id": "219d80a7-c329-46ad-befb-deaecea41fc5",
+        "id": "b769edcd-db63-4125-915e-5c0889e662b9",
+        "name": "XL 100 COMFORT"
+      },
+      {
+        "brand_id": "219d80a7-c329-46ad-befb-deaecea41fc5",
+        "id": "6ff6892b-81c7-450c-ab3f-5a8d8776151c",
+        "name": "SPORT"
+      },
+      {
+        "brand_id": "219d80a7-c329-46ad-befb-deaecea41fc5",
+        "id": "bc397bfd-606a-49d3-82f0-745c55e288a6",
+        "name": "SCOOTY PEP PLUS"
+      },
+      {
+        "brand_id": "219d80a7-c329-46ad-befb-deaecea41fc5",
+        "id": "9ff54b48-7e70-4c11-badc-de35123ee258",
+        "name": "STAR CITY PLUS"
+      },
+      {
+        "brand_id": "c153a943-e208-459b-a75d-92fc7ece5eb9",
+        "id": "ef4e8bf2-1930-4584-bd55-8e072c3fd824",
+        "name": "CT 100"
+      },
+      {
+        "brand_id": "c153a943-e208-459b-a75d-92fc7ece5eb9",
+        "id": "affd68cc-0373-4166-89e8-82af570e7472",
+        "name": "PLATINA"
+      },
+      {
+        "brand_id": "c153a943-e208-459b-a75d-92fc7ece5eb9",
+        "id": "dd3cf7fc-ef8a-4dce-a0fa-89cbfe54e0dc",
+        "name": "DISCOVER 110"
+      },
+      {
+        "brand_id": "c153a943-e208-459b-a75d-92fc7ece5eb9",
+        "id": "6e73f62d-b63e-4bd2-a008-3a9466449099",
+        "name": "DISCOVER 125"
+      },
+      {
+        "brand_id": "c153a943-e208-459b-a75d-92fc7ece5eb9",
+        "id": "31a399e8-1c03-490d-bc59-8d0c25feb3eb",
+        "name": "PULSAR 135 LS"
+      },
+      {
+        "brand_id": "c153a943-e208-459b-a75d-92fc7ece5eb9",
+        "id": "c581ac10-6d7d-482a-898a-5d3b032ca721",
+        "name": "V15"
+      }
+    ],
+    "types": [
+      {
+        "id": "85998ec0-ca13-4b7b-9f60-72120a3ea1cb",
+        "name": "Bike",
+        "slug": "bike"
+      },
+      {
+        "id": "a244e150-3cdf-410d-b1b1-b1515744b2cc",
+        "name": "Car",
+        "slug": "car"
+      }
+    ]
+  },
+  "status_code": 200
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Use JavaScript to Change Text</h2>
+<p>This example writes "Hello JavaScript!" into an HTML element with id="demo":</p>
+
+<p id="demo"></p>
+<input type="button" value="Say hello" onClick="PaymentSuccess('payment success data')" />
+<input type="button" value="Say error" onClick="PaymentError('payment error data')" />
+<script>
+ function PaymentSuccess(data) {
+        PaymentInterface.success(data);
+    }
+    function PaymentError(error_data) {
+        PaymentInterface.error(error_data);
+    }
+</script> 
+
+</body>
+</html>
